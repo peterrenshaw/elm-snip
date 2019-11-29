@@ -18,6 +18,12 @@
 - add some code to the src/Snippet.elm file.
 - call in the src/Main.elm file.
 
+* A simple explanation how to use
+- the src/Main.elm calls the ^helloworld^ statement from src/Snippet.elm
+  and compiles it.
+- hack away.
+
+
 1/
 
 * edit the src/Snippet.elm file
@@ -37,8 +43,11 @@
 
   -- hack away below this line
   = helloworld
-  
-* explanation
-- the src/Main.elm calls the ^helloworld^ statement from src/Snippet.elm
-  and compiles it.
-- hack away.
+
+
+3/ 
+
+* compile
+
+  ./g.sh -i src/Main.elm -a
+
