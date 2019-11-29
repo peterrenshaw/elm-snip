@@ -12,6 +12,7 @@ module Main exposing (..)
 
 import Html
 import List exposing (..)
+import Snippet exposing (..)
 
 
 
@@ -29,11 +30,7 @@ main =
     Html.text snippet
 
 
-numbers n =
-    List.range 1 n
-
-
 snippet =
-    numbers 1000
+    numbers 6
         |> List.map String.fromInt
         |> String.join " "
