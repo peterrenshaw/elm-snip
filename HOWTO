@@ -7,7 +7,7 @@
                                   /_/      
 
 
-  A quick hack tool for trying out elm code functions
+  A quickly written, hack tool for trying out elm code functions
   and data structures. 'Cause I can't be bothered
   installing node.
 
@@ -17,3 +17,28 @@
 * How to use?
 - add some code to the src/Snippet.elm file.
 - call in the src/Main.elm file.
+
+1/
+
+* edit the src/Snippet.elm file
+
+  -- ADD YOUR CODE HERE
+  src/Snippet.elm
+
+- add your code to the file
+- work on it until it compiles without error
+
+2/ 
+
+* edit the src/Main.elm file
+- add your code using functions, data structures from src/Snippet.elm
+  and add below the line show below
+
+
+  -- hack away below this line
+  = helloworld
+  
+* explanation
+- the src/Main.elm calls the ^helloworld^ statement from src/Snippet.elm
+  and compiles it.
+- hack away.

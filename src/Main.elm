@@ -2,7 +2,12 @@
 -- # name: Main.elm
 -- # date: 2019NOV29
 -- # prog: pr
--- # desc: testing code for examples working on
+-- # desc: A hack for testing code snippets I'm working on.
+-- #
+-- #       the idea is simple: write some functions, code or
+-- #       data structures in src/Snippet.elm then call in this
+-- #       module. see HOWTO for more details (it's not that hard)
+-- #
 -- # sorc:
 -- #       <http://learnyouanelm.github.io/pages/02-starting-out.html>
 -- #=========
@@ -15,22 +20,12 @@ import List exposing (..)
 import Snippet exposing (..)
 
 
-
--- access x and y from a list of points
---
-
-
-type alias Point =
-    { x : Float
-    , y : Float
-    }
-
-
 main =
     Html.text snippet
 
 
 snippet =
+    -- hack away below this line
     numbers 6
         |> List.map String.fromInt
         |> String.join " "
