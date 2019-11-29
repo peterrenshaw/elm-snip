@@ -22,6 +22,11 @@
   http://learnyouanelm.github.io/pages/02-starting-out.html
 
 * this program uses elm-go, a simple shell script to compile the code
+- you don't need it, but I get sick of typing in:
+
+     elm make src/Main.elm 
+     elm-format --yes src/Main.elm
+
 - you can find it here:
 
   <https://github.com/peterrenshaw/elm-go>
