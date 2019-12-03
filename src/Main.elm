@@ -15,17 +15,17 @@
 
 module Main exposing (..)
 
+import Browser
 import Html
 import List exposing (..)
 import Snippet exposing (..)
 
 
 main =
-    Html.text snippet
+    Html.text (Debug.toString snippet)
 
 
 snippet =
     -- hack away below this line
-    numbers 6
-        |> List.map String.fromInt
-        |> String.join " "
+    -- procCoord coordinates
+    pCoord coordinates

@@ -18,7 +18,9 @@
 - add some code to the src/Snippet.elm file.
 - call in the src/Main.elm file.
 
-* A simple explanation how to use
+* A simple explanation
+- add new functions, data structures to src/Snippet.elm
+- modify below the line in src/Main.elm
 - the src/Main.elm calls the ^helloworld^ statement from src/Snippet.elm
   and compiles it.
 - hack away.
@@ -50,4 +52,10 @@
 * compile
 
   ./g.sh -i src/Main.elm -a
+       
+       OR 
+
+  elm make src/Main.elm 
+  elm-format --yes src/Main.elm
+ 
 

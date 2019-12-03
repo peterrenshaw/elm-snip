@@ -3,10 +3,25 @@ module Snippet exposing (..)
 import Random
 
 
+
+-- SNIPPET 2019NOV29 shapes START --
+
+
 type alias Point =
     { x : Float
     , y : Float
     }
+
+
+type alias Shape =
+    { coords : List Point
+    , label : String
+    , id : Int
+    }
+
+
+coordinates =
+    [ ( 0, 0 ), ( 1, 0 ), ( 0, 0 ) ]
 
 
 numbers n =
@@ -14,12 +29,21 @@ numbers n =
     List.range 1 n
 
 
-randnum n =
-    -- func: return list of n random numbers
-    -- deps: Random
-    Random.float n
+pCoord ptLst =
+    -- func: return flatten tuple of co-ordinates as list
+    ptLst
+        |> List.concatMap (\( x, y ) -> [ x, y ])
+        |> List.map String.fromInt
+        |> String.join ", "
 
 
-coord n =
-    -- func: return list of co-ordinates as list
-    0
+
+-- pCoord ptLst =
+--    ptLst
+--        |> List.map (\( x, y ) -> [ Point.x, Point.y ])
+-- SNIPPET shapes END --
+
+
+helloworld =
+    -- var: display a hello world message
+    "Hello World"

@@ -11,12 +11,16 @@
   and data structures. 'Cause I can't be bothered
   installing node.
 
+2019DEC03
+* hack move passing back Debug.toString as text
+- will show anything as text
+- this should allow visible hacking of code w/o having to resort to 
+  the full elm processing loop and init,model,view,update,subs 
 
 2019NOV29
 * wrote some docs.
-
 * hack a quick tool to check elm code snippets
-* source
+* example sources 
  
   https://package.elm-lang.org/packages/elm/random/latest/
   http://learnyouanelm.github.io/pages/02-starting-out.html
