@@ -12,6 +12,8 @@
   installing node.
 
 2019DEC03
+* simplist idea I could think of
+- we'll see with more complicated snippets if it works
 * hack move passing back Debug.toString as text
 - will show anything as text
 - this should allow visible hacking of code w/o having to resort to 
