@@ -22,11 +22,10 @@ import Snippet exposing (..)
 
 
 main =
-    Html.text (Debug.toString snippet)
+    -- Html.text (Debug.toString snippet)
+    Html.text snippet
 
 
 snippet =
     -- hack away below this line
-    -- procCoord coordinates
-    -- pCoord2Point coordinates
-    fltAdd 1.1 3.3
+    helloworld

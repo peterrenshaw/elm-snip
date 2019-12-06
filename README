@@ -7,12 +7,18 @@
                                   /_/      
 
 
-  A quickly written, hack tool for trying out elm code functions
-  and data structures. 'Cause I can't be bothered
+  A quickly written, hack tool for trying out elm code
+  functions and data structures. 'Cause I can't be bothered
   installing node.
 
 2019DEC06
-* working on types
+- Pramming Elm, P16
+* working on:
+- types
+- type annotation
+- saving old snippets as such
+
+  SnippetYYYYMMDD.elm
 
 2019DEC03
 * simplist idea I could think of
