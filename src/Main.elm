@@ -28,4 +28,5 @@ main =
 snippet =
     -- hack away below this line
     -- procCoord coordinates
-    pCoord coordinates
+    -- pCoord2Point coordinates
+    fltAdd 1.1 3.3

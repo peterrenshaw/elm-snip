@@ -4,12 +4,31 @@ import Random
 
 
 
+-- SNIPPET 2019DEC06 START --
+-- add two integers
+
+
+intAdd : Int -> Int -> Int
+intAdd x y =
+    x + y
+
+
+
+-- add two floats
+
+
+fltAdd : Float -> Float -> Float
+fltAdd x y =
+    x + y
+
+
+
 -- SNIPPET 2019NOV29 shapes START --
 
 
 type alias Point =
-    { x : Float
-    , y : Float
+    { x : Int
+    , y : Int
     }
 
 
@@ -29,12 +48,16 @@ numbers n =
     List.range 1 n
 
 
-pCoord ptLst =
+pCoordFlat ptLst =
     -- func: return flatten tuple of co-ordinates as list
     ptLst
         |> List.concatMap (\( x, y ) -> [ x, y ])
         |> List.map String.fromInt
         |> String.join ", "
+
+
+point x y =
+    ( x, y )
 
 
 
