@@ -22,10 +22,32 @@ import Snippet exposing (..)
 
 
 main =
-    -- Html.text (Debug.toString snippet)
-    Html.text snippet
+    Html.text (Debug.toString snippet)
+
+
+
+--Html.text snippet
 
 
 snippet =
     -- hack away below this line
-    helloworld
+    -- greetings
+    -- looper greetings
+    -- firstWord greetings
+    -- capital greetings
+    -- capitalise greetings
+    -- firstWord greetings
+    -- String.toLower (List.head greetings)
+    -- capitalise greetings
+    -- String.slice 0 1 (List.head greetings)
+    -- hcWord "Hi"
+    -- upcaseWords greetings
+    -- capWord " this is not on "
+    -- capWords greetings
+    -- changeWords greetings firstWord
+    changeWords greetings capWord
+
+
+
+-- capWords greetings
+-- restOfWords greetings

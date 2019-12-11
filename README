@@ -8,10 +8,13 @@
 
 
   A quickly written, hack tool for trying out elm code
-  functions and data structures. 'Cause I can't be bothered
-  installing node.
+  functions and data structures. 
+
+  'cause I can't be bothered installing node.
+
 
 2019DEC06
+* 
 * Programming Elm, P16
 * working on:
 - types

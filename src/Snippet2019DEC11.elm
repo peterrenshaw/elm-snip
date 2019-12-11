@@ -1,8 +1,4 @@
-module Snippet exposing (..)
-
-import Random
-
-
+module Snippet2019DEC11 exposing (..)
 
 -- SNIPPET 2019DEC06 START --
 -- OBJECTIVE: I Want to capitalise words in a list
@@ -38,6 +34,24 @@ import Random
 -- - display the input in snippet function
 -- * "Elm - Check the Type of a value"
 -- - <https://stackoverflow.com/questions/36535368/elm-check-the-type-of-a-value>
+-- EXPRESSION SNIPPETS
+--
+-- looper greetings
+-- firstWord greetings
+-- capital greetings
+-- capitalise greetings
+-- firstWord greetings
+-- capWords greetings
+-- restOfWords greetings
+-- String.toLower (List.head greetings)
+-- capitalise greetings
+-- String.slice 0 1 (List.head greetings)
+-- hcWord "Hi"
+-- upcaseWords greetings
+-- capWord " this is not on "
+-- capWords greetings
+-- changeWords greetings firstWord
+-- changeWords greetings capWord
 
 
 greetings =
@@ -155,6 +169,7 @@ hcWord word =
 
 
 
+-- ---- JUNK CODE ----
 --capital greeting =
 --    firstWord greeting ++ restOfWords sentence
 {-
@@ -182,9 +197,3 @@ hcWord word =
 --    |> List.concatMap (\x -> [x])
 --    |>
 -- SNIPPET 2019DEC06 END --
-
-
-helloworld : String
-helloworld =
-    -- var: display a hello world message
-    "Hello World"

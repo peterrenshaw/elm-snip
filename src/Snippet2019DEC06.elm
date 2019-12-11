@@ -33,7 +33,7 @@ fltAdd x y =
 
 -- crseAdd : Float -> Int -> Float
 -- CURSED FUNCTION: will never compile
--- add one float to an int and return?
+-- add one float to anhttps://stackoverflow.com/questions/36535368/elm-check-the-type-of-a-value int and return?
 -- crseAdd x y =
 --    x + y
 
