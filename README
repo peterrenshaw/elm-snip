@@ -12,9 +12,12 @@
 
   'cause I can't be bothered installing node.
 
+2019DEC11
+* I Want to capitalise words in a list
+- then pass that function into map function to work on list of strings
+- oh yeah... it works. See src/Snippet2019DEC11.elm
 
 2019DEC06
-* 
 * Programming Elm, P16
 * working on:
 - types
