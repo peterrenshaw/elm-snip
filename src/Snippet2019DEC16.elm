@@ -1,14 +1,8 @@
-module Snippet exposing (..)
+module Snippet2019DEC16 exposing (..)
 
-
-helloworld : String
-helloworld =
-    -- var: display a hello world message
-    "Hello World"
-
-
-
-{- ========= START snipping away here ======== -}
+-- SNIPPET 2019DEC06 START --
+-- OBJECTIVE: I Want to capitalise words in a list
+-- sources: Jeremy Fairbank, "Programming Elm", Pragmatic Programmers, PP 52, 245.
 
 
 sayHello name =
@@ -33,13 +27,10 @@ personHo name greet other =
     -- greets using sayHigherOrder func
     -- "the greet arg is a function accepting 'other' as arg"
     -- $ personHo "Jeremy" (\other -> sayHigherOrder "Hi" other) "Tucker"
+    -- $ personHo "Jeremy" (\other -> other ++ ", how are you?") "Tucker"
     greet other ++ " My name is " ++ name ++ "."
 
 
 whatIsHigherOrderFunction name =
     -- $ whatIsHigherOrderFunction "Higher Order Function"
     name ++ ": " ++ "A function that accepts another function as an argument or returns a function."
-
-
-
-{- ========= END snipping away here ======== -}

@@ -12,13 +12,33 @@
 
   'cause I can't be bothered installing node.
 
+
+2019DEC16
+* code snippets
+- sayHigherOrder "Hi" "Elm"
+- person "Jeremy" "Tucker"
+- personHo "Jeremy" (\other -> sayHigherOrder "Hi" other) "Tucker"
+- whatIsHigherOrderFunction "Higher Order Function"
+- personHo "Jeremy" (\other -> other ++ ", how are you?") "Tucker"
+
+* Higher order functions
+- Programming Elm, Ch1, P3,4,6,7,8,9 
+- sayHello
+- sayHigherOrder
+
+* Currying
+
+* Static Types, Type Annotation
+
 2019DEC11
+* clean up
+- must write a script that automates this
 * I Want to capitalise words in a list
 - then pass that function into map function to work on list of strings
 - oh yeah... it works. See <https://github.com/peterrenshaw/elm-snip/blob/master/src/Snippet2019DEC11.elm>
 
 2019DEC06
-* Programming Elm, P16
+* Programming Elm, Ch1 P16
 * working on:
 - types
 - type annotation
