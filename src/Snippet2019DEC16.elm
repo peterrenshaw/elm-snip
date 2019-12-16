@@ -3,6 +3,16 @@ module Snippet2019DEC16 exposing (..)
 -- SNIPPET 2019DEC06 START --
 -- OBJECTIVE: I Want to understand Higher Order Functions
 -- sources: Jeremy Fairbank, "Programming Elm", Pragmatic Programmers, PP 52, 245.
+-- SNIPPET 2019DEC16 START --
+-- * Higher order functions
+-- - Programming Elm, Ch1, P3,4,6,7,8,9
+-- - sayHello
+-- - sayHigherOrder
+-- - sayHigherOrder "Hi" "Elm"
+-- - person "Jeremy" "Tucker"
+-- - personHo "Jeremy" (\other -> sayHigherOrder "Hi" other) "Tucker"
+-- - whatIsHigherOrderFunction "Higher Order Function"
+-- - personHo "Jeremy" (\other -> other ++ ", how are you?") "Tucker"
 
 
 sayHello name =
@@ -34,3 +44,7 @@ personHo name greet other =
 whatIsHigherOrderFunction name =
     -- $ whatIsHigherOrderFunction "Higher Order Function"
     name ++ ": " ++ "A function that accepts another function as an argument or returns a function."
+
+
+
+-- SNIPPET 2019DEC16 END --

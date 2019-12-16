@@ -14,17 +14,15 @@
 
 
 2019DEC16
-* code snippets
+* Higher order functions
+- Programming Elm, Ch1, P3,4,6,7,8,9 
+- sayHello
+- sayHigherOrder
 - sayHigherOrder "Hi" "Elm"
 - person "Jeremy" "Tucker"
 - personHo "Jeremy" (\other -> sayHigherOrder "Hi" other) "Tucker"
 - whatIsHigherOrderFunction "Higher Order Function"
 - personHo "Jeremy" (\other -> other ++ ", how are you?") "Tucker"
-
-* Higher order functions
-- Programming Elm, Ch1, P3,4,6,7,8,9 
-- sayHello
-- sayHigherOrder
 
 * Currying
 
