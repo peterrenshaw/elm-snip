@@ -1,7 +1,7 @@
 module Snippet2019DEC16 exposing (..)
 
 -- SNIPPET 2019DEC06 START --
--- OBJECTIVE: I Want to capitalise words in a list
+-- OBJECTIVE: I Want to understand Higher Order Functions
 -- sources: Jeremy Fairbank, "Programming Elm", Pragmatic Programmers, PP 52, 245.
 
 
