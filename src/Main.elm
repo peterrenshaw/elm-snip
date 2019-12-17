@@ -27,10 +27,4 @@ main =
 
 snippet =
     -- hack away below this line
-    -- helloworld
-    --
-    -- sayHigherOrder "Hi" "Elm"
-    -- person "Jeremy" "Tucker"
-    -- personHo "Jeremy" (\other -> sayHigherOrder "Hi" other) "Tucker"
-    -- whatIsHigherOrderFunction "Higher Order Function"
-    -- personHo "Jeremy" (\other -> other ++ ", how are you?") "Tucker"
+    helloworld

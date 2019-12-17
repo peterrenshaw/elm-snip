@@ -1,11 +1,11 @@
 module Snippet2019DEC16 exposing (..)
 
--- SNIPPET 2019DEC06 START --
+-- SNIPPET 2019DEC16/17 START --
 -- OBJECTIVE: I Want to understand Higher Order Functions
 -- sources: Jeremy Fairbank, "Programming Elm", Pragmatic Programmers, PP 52, 245.
+--          Programming Elm, Ch1, P3,4,6,7,8,9
 -- SNIPPET 2019DEC16 START --
 -- * Higher order functions
--- - Programming Elm, Ch1, P3,4,6,7,8,9
 -- - sayHello
 -- - sayHigherOrder
 -- - sayHigherOrder "Hi" "Elm"
@@ -13,6 +13,14 @@ module Snippet2019DEC16 exposing (..)
 -- - personHo "Jeremy" (\other -> sayHigherOrder "Hi" other) "Tucker"
 -- - whatIsHigherOrderFunction "Higher Order Function"
 -- - personHo "Jeremy" (\other -> other ++ ", how are you?") "Tucker"
+--
+-- -- for fun
+--   let
+--      message =
+--        sayHello "James"
+--   in
+--       person "Brown" message
+--
 
 
 sayHello name =
