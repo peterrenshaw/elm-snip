@@ -37,6 +37,13 @@ sayHigherOrder greeting name =
 person name other =
     -- pass in function as other?
     -- $ person "Jeremy" "Tucker"
+    -- -- for fun
+    --   let
+    --      message =
+    --        sayHello "James"
+    --   in
+    --       person "Brown" message
+    --
     sayHigherOrder "Hi" other ++ " My name is " ++ name ++ "."
 
 
