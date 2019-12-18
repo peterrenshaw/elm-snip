@@ -4,6 +4,8 @@
 -- # prog: pr
 -- # desc: A hack for testing code snippets I'm working on.
 -- #
+-- #           'cause nodejs sucks
+-- #
 -- #       the idea is simple: write some functions, code or
 -- #       data structures in src/Snippet.elm then call in this
 -- #       module. see HOWTO for more details (it's not that hard)
@@ -21,10 +23,19 @@ import List exposing (..)
 import Snippet exposing (..)
 
 
+
+--import Snippet2019DEC16 exposing (..)
+
+
 main =
+    -- Debug.toString is the hack!
     Html.text (Debug.toString snippet)
 
 
 snippet =
     -- hack away below this line
     helloworld
+
+
+
+-- # vim: ff=unix:ts=4:sw=4:tw=78:noai:expandtab

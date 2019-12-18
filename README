@@ -10,7 +10,63 @@
   A quickly written, hack tool for trying out elm code
   functions and data structures. 
 
-  'cause I can't be bothered installing node.
+  'cause nodejs sucks
+
+
+2019DEC18
+* Partial and Full application: functions, variables and anonymous funcs 
+- Snippet.person "Jeremy" (Snippet.sayHello "hello")
+- sayHigherOrder "Hi" "Elm"
+- person "Jeremy" ((\other -> sayHigherOrder "hi" other) "Tucker")
+- let
+    jeremyOne =
+        person "Jeremy" (sayHello "G'day")
+  in
+    jeremyOne
+- jeremyTwo
+- tuckerOne "ya old bugger"
+- jeremyTwo hello
+- hello
+- hello "there"
+- gday "mate"
+- jeremyTwo (gday "mate")
+- jeremyTwo (hello "there")
+
+* Lots of trouble trying to use existing code, importing 
+  into Snippet.elm.
+- don't do this
+
+    {- ========= START snipping away ... add ALL CODE below ======== -}
+
+    ADD CODE BETWEEN THE SNIPPET LINES
+
+    {- ========= END snipping away here ======== -}
+
+- once everything is in Snippet.elm, trouble stopped
+
+
+* partial application to remove anonymous functions
+* ran into error, remmeber to use higher order example, 
+  sayHigherOrder instead of sayHello
+
+    import Snippet2019DEC16 exposing (..)
+    hi =
+      -- full application example
+      -- Hi "Elm"
+      -- <function> : String -> String
+      sayHigherOrder "Hi"
+ 
+
+* remember to include correct snippet
+
+    import Snippet2019DEC16 exposing (..)
+
+* Currying
+- Hi "Elm"
+
+
+
+* Static Types, Type Annotation
 
 
 2019DEC16
@@ -23,10 +79,6 @@
 - personHo "Jeremy" (\other -> sayHigherOrder "Hi" other) "Tucker"
 - whatIsHigherOrderFunction "Higher Order Function"
 - personHo "Jeremy" (\other -> other ++ ", how are you?") "Tucker"
-
-* Currying
-
-* Static Types, Type Annotation
 
 2019DEC11
 * clean up
@@ -69,3 +121,6 @@
 - you can find it here:
 
   <https://github.com/peterrenshaw/elm-go>
+
+
+# vim: ff=unix:ts=4:sw=4:tw=78:noai:expandtab

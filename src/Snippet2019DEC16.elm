@@ -63,3 +63,4 @@ whatIsHigherOrderFunction name =
 
 
 -- SNIPPET 2019DEC16 END --
+-- # vim: ff=unix:ts=4:sw=4:tw=78:noai:expandtab
