@@ -1,14 +1,12 @@
-module Snippet exposing (..)
+module Snippet2019DEC19 exposing (..)
 
-
-helloworld : String
-helloworld =
-    -- var: display a hello world message
-    "Hello World"
-
-
-
-{- ========= START snipping away ... add all your code below ======== -}
+-- SNIPPET 2019DEC19 START --
+-- OBJECTIVE: I Want to understand Higher Order Functions
+-- sources: Jeremy Fairbank, "Programming Elm",
+--          Pragmatic Programmers, PP 14,15,16,17.
+--          Programming Elm, Ch1, P3,4,6,7,8,9
+-- SNIPPET 2019DEC19 START --
+-- * Type annotations
 
 
 add x y =
@@ -51,5 +49,5 @@ pie =
 
 
 
-{- ========= END snipping away here ======== -}
+-- SNIPPET 2019DEC19 END --
 -- # vim: ff=unix:ts=4:sw=4:tw=78:noai:expandtab

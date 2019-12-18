@@ -12,6 +12,17 @@
 
   'cause nodejs sucks
 
+2019DEC19
+* Static Types, Type Annotation
+- not sure elm-snip will be useful, lets see.
+-- start
+- add 1 1000
+- greetings
+- moreGreeting
+- meaningOfLife
+- pie
+-- end
+
 
 2019DEC18
 * Partial and Full application: functions, variables and anonymous funcs 
@@ -63,10 +74,6 @@
 
 * Currying
 - Hi "Elm"
-
-
-
-* Static Types, Type Annotation
 
 
 2019DEC16

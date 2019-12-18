@@ -34,7 +34,12 @@ main =
 
 snippet =
     -- hack away below this line
-    helloworld
+    -- helloworld
+    -- add 1 1000
+    -- greetings
+    --moreGreeting
+    -- meaningOfLife
+    pie
 
 
 
