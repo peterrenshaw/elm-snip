@@ -7,8 +7,9 @@
                                   /_/      
 
 
-  A quickly written, hack tool for trying out elm code
-  functions and data structures. 
+  A quickly written, hack to replace REPL
+  letting me try out elm code functions and 
+  data structures. 
 
   'cause nodejs sucks
 
