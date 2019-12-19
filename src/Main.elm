@@ -34,23 +34,7 @@ main =
 
 snippet =
     -- hack away below this line
-    -- helloworld
-    -- add 1 1000
-    -- greetings
-    -- moreGreeting
-    -- meaningOfLife
-    -- pie
-    -- let
-    --    strPi =
-    --        Debug.toString pie
-    -- in
-    -- sayHello "pi " ++ strPi
-    -- bottlesOf "Jolt! Cola" 100
-    let
-        strPi =
-            Debug.toString pie
-    in
-    sayHello "pi " ++ strPi
+    helloworld
 
 
 

@@ -9,11 +9,12 @@ module Snippet2019DEC19 exposing (..)
 -- * Type annotations
 
 
+add : Int -> Int -> String
 add x y =
     -- add: basic addition function
     -- no types declared, ^type inference^ infers this
     -- type annotations are?
-    x + y
+    String.fromInt (x + y)
 
 
 sayHello : String -> String
@@ -67,7 +68,8 @@ bottlesOf contents amount =
     -- alternative?
     -- $ bottlesOf "Jolt! Cola" 100
     -- > "100 bottles of Jolt! Cola on the wall"
-    Debug.toString amount ++ " bottles of " ++ contents ++ " on the wall"
+    -- OK added type annotation, coersed Int to String
+    String.fromInt amount ++ " bottles of " ++ contents ++ " on the wall"
 
 
 

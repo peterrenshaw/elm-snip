@@ -13,6 +13,8 @@
   'cause nodejs sucks
 
 2019DEC19
+* Collections of Lists
+
 * Static Types, Type Annotation
 - not sure elm-snip will be useful, lets see.
 -- start
@@ -21,6 +23,18 @@
 - moreGreeting
 - meaningOfLife
 - pie
+
+- let
+-   strPi =
+-      Debug.toString pie
+- in sayHello "pi " ++ strPi
+
+- bottlesOf "Jolt! Cola" 100
++ using Debug.String
+- sayHello "pi " ++ strPi
+- bottlesOf "Jolt! Cola" 100
++ repeated after changing Debug.String to String.fromInt
+
 -- end
 
 
