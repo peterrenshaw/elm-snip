@@ -64,11 +64,11 @@ canChuck =
 
 bottlesOf : String -> Int -> String
 bottlesOf contents amount =
-    -- type coersion usuing debug hack
+    -- type coercion usuing debug hack
     -- alternative?
     -- $ bottlesOf "Jolt! Cola" 100
     -- > "100 bottles of Jolt! Cola on the wall"
-    -- OK added type annotation, coersed Int to String
+    -- OK added type annotation, coerced Int to String
     String.fromInt amount ++ " bottles of " ++ contents ++ " on the wall"
 
 
