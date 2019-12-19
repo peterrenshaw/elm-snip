@@ -37,9 +37,20 @@ snippet =
     -- helloworld
     -- add 1 1000
     -- greetings
-    --moreGreeting
+    -- moreGreeting
     -- meaningOfLife
-    pie
+    -- pie
+    -- let
+    --    strPi =
+    --        Debug.toString pie
+    -- in
+    -- sayHello "pi " ++ strPi
+    -- bottlesOf "Jolt! Cola" 100
+    let
+        strPi =
+            Debug.toString pie
+    in
+    sayHello "pi " ++ strPi
 
 
 

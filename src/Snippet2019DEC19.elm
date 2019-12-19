@@ -20,7 +20,14 @@ sayHello : String -> String
 sayHello name =
     -- bog standard function
     -- type annotation: input String, return String
-    "Hello, " ++ name ++ "."
+    -- $ sayHello "There"
+    -- $ let
+    --     strPi =
+    --        Debug.toString pie
+    --    in
+    --    sayHello "pi " ++ strPi
+    -- > "Hello, pi 3.1415926535"
+    "Hello, " ++ name
 
 
 greetings : String
@@ -46,6 +53,21 @@ pie : Float
 pie =
     -- type annotation is Floating point
     3.1415926535
+
+
+canChuck : Bool
+canChuck =
+    -- type annotation is boolen
+    True
+
+
+bottlesOf : String -> Int -> String
+bottlesOf contents amount =
+    -- type coersion usuing debug hack
+    -- alternative?
+    -- $ bottlesOf "Jolt! Cola" 100
+    -- > "100 bottles of Jolt! Cola on the wall"
+    Debug.toString amount ++ " bottles of " ++ contents ++ " on the wall"
 
 
 
