@@ -13,8 +13,20 @@
 
   'cause nodejs sucks
 
+
 2019DEC19
 * Collections of Lists
+- how do I display the type inference of a function, code block?
+- No you cannot find types at runtime 'cause Elm has zero support 
+  for ^dependent typing^
+  <https://stackoverflow.com/questions/36535368/elm-check-the-type-of-a-value>
+  <https://en.m.wikipedia.org/wiki/Dependent_type>
+
+- $ greetings
+- > ["hi","Hello","Ho"]
+- $ empty
+- > []
+
 
 * Static Types, Type Annotation
 - not sure elm-snip will be useful, lets see.

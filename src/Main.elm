@@ -34,7 +34,9 @@ main =
 
 snippet =
     -- hack away below this line
-    helloworld
+    -- helloworld
+    -- greetings
+    empty
 
 
 

@@ -6,7 +6,10 @@ module Snippet2019DEC19 exposing (..)
 --          Pragmatic Programmers, PP 14,15,16,17.
 --          Programming Elm, Ch1, P3,4,6,7,8,9
 -- SNIPPET 2019DEC19 START --
+-- * Collections of Lists
 -- * Type annotations
+--
+{- ----------- Type Annotations ----------- -}
 
 
 add : Int -> Int -> String
@@ -70,6 +73,22 @@ bottlesOf contents amount =
     -- > "100 bottles of Jolt! Cola on the wall"
     -- OK added type annotation, coerced Int to String
     String.fromInt amount ++ " bottles of " ++ contents ++ " on the wall"
+
+
+
+{- ----------- Collections Of Lists ----------- -}
+
+
+greetings =
+    -- $ greetings
+    -- > ["hi","Hello","Ho"]
+    [ "hi", "Hello", "Ho" ]
+
+
+empty =
+    -- $ empty
+    -- > []
+    []
 
 
 
