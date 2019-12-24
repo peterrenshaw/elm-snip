@@ -85,6 +85,10 @@ greetings =
     [ "hi", "Hello", "Ho" ]
 
 
+greetings2 =
+    [ "Hi", "There", "You", "Great", "Big", "Cheeky" ]
+
+
 empty =
     -- $ empty
     -- > []

@@ -14,6 +14,12 @@
   'cause nodejs sucks
 
 
+2019DEC24
+* done, though:
+- 'Your elm.json says this application needs a different version of Elm. It requires 0.19.0, but you are using 0.19.1 right now'
+* continue collections of lists
+- greetings = ["Hi", "There", "You", "Great", "Big", "Cheeky"]
+
 2019DEC19
 * Collections of Lists
 - how do I display the type inference of a function, code block?
